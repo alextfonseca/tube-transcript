@@ -15,7 +15,7 @@ export default function Home() {
 
       <div className="mt-6 grid h-full max-h-[70%] w-[90%] max-w-[1440px] grid-cols-home-container gap-4">
         <div className="h-full overflow-y-scroll rounded border border-zinc-800 p-6">
-          <p className="text-base text-white">
+          <p className="text-base text-white" id={'transcriptionText'}>
             {transcriptionText ? transcriptionText : '...'}
           </p>
         </div>
