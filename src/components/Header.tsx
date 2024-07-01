@@ -9,7 +9,7 @@ export function Header() {
 
         <Link
           className="flex items-center gap-2 rounded-md border border-zinc-500 px-4 py-2 text-zinc-50 transition-all hover:bg-zinc-600"
-          href={'https://github.com/alextfonseca'}
+          href={'https://github.com/alextfonseca/tube-transcript'}
           target={'_blank'}
         >
           <GithubLogo size={24} color={'#fff'} />

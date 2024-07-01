@@ -10,10 +10,10 @@ export default function Home() {
   const { transcriptionText } = useTranscription()
 
   return (
-    <main className="flex h-screen max-h-screen flex-col items-center">
+    <main className="flex h-screen flex-col items-center lg:max-h-screen">
       <Header />
 
-      <div className="mt-6 grid h-full max-h-[70%] w-[90%] max-w-[1440px] grid-cols-home-container gap-4">
+      <div className="mt-6 flex h-full w-[90%] max-w-[1440px] grid-cols-home-container flex-col-reverse gap-4 lg:grid lg:max-h-[70%]">
         <div className="h-full overflow-y-scroll rounded border border-zinc-800 p-6">
           <p className="text-base text-white" id={'transcriptionText'}>
             {transcriptionText ? transcriptionText : '...'}
